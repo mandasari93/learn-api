@@ -1,9 +1,17 @@
 p {
-        margin: 0;
-      }
-      ul {
-        list-style: none;
-      }
-      .container {
-        margin-bottom: 20px;
-      }
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.container {
+  margin-bottom: 20px;
+}
+
+.list-followers {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
