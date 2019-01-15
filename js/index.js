@@ -2,7 +2,7 @@ const listData = document.getElementById("nameCharacter");
 
 const getData = url => {
   fetch(url)
-    .then(res => res.json())
+    .then(respon => respon.json())
     .then(data => {
       data.results.map((item, index) => {
         console.log(item);
